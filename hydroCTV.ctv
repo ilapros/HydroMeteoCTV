@@ -1,0 +1,70 @@
+<CRANTaskView>
+<name>hydroTBD</name>
+<topic>hydroTBD</topic>
+<maintainer email="TBD@TBD">The mantainer TBD </maintainer>
+<version>2018-07-30</version>
+<url>https://CRAN.R-project.org/view=HydoTBD</url>
+<info>
+<br></br>
+Something about hydrology and make sure to link the view <view>Environmetrics</view>.
+
+<p><strong>Data retireval</strong></p>
+A number of packages exist to access hydrological, meterological and climatological data from global, national and local authorities. 
+ <ul>
+<li><pkg>RNCEP</pkg>: access and work with NCEP/NCAR reanalysis data</li>
+<li><pkg>worldmet</pkg>: tools to import global meteorological data from NOAA ISD</li>
+<li><pkg>rnoaa</pkg>: access various NOAA data sources, e.g. NCDC</li>
+<li><pkg>rwunderground</pkg>: retrieve historical weather information and forecasts from wunderground.com</li>
+<li><pkg>GSODR</pkg>: automated downloading, parsing, cleaning, unit conversion and formatting of Global Surface Summary of the Day (GSOD) weather data from the from the USA National Centers for Environmental Information (NCEI). </li>
+<li><pkg>WaterML</pkg>: connect to CUAHSI water database and work with WaterML data</li>
+<li><pkg>getMet</pkg>: source, format, and edit meteorological data for (SWAT) hydrologic models</li>
+<li><github>rywhale/kiwisR </github>: wrapper for retrieving data from KISTERS WISKI databases via the KiWIS API</li>
+<li><pkg>bomrang</pkg>: access and work with Australian Bureau of Meteorology data</li>
+<li><pkg>weathercan</pkg>: access Environment and Climate Change Canada weather data</li>
+<li><pkg>tidyhydat</pkg>: download and tidy Canadian hydrometric data</li>
+<li><pkg>hydroscoper</pkg>: interface to Greek National Data Bank for Hydrological and Meteorological Information</li>
+<li><pkg>rdwd</pkg>: gather and work with German weather data (DWD)</li>
+<li><pkg>rnrfa</pkg>: access daily river flow and monthly catchment average rainfall from the UK National River Flow Archive</li>
+<li><pkg>dataRetrieval</pkg>: download USGS and EPA water data</li>
+<li><pkg>countyweather</pkg>: uses rnoaa to compile weather timeseries for US counties</li>
+<li><pkg>hydrolinks</pkg>: tools for working with hydrologic network geographic data including retrieval of US NHD data</li>
+<li><pkg>waterData</pkg>: imports and plots U.S. Geological Survey daily hydrologic data from USGS web services</li>
+<li><pkg><pkg>sbtools</pkg></pkg>: interface to USGS ScienceBase data management platform</li>
+<li><pkg>washdata</pkg>: provide access to the Urban water and sanitation survey dataset collected by Water and Sanitation for the Urban Poor (WSUP) </li>
+<li><pkg>dbhydroR</pkg>: access South Florida Water Management District’s DBHYDRO database</li>
+</ul>
+</info>
+
+
+<packagelist>
+<pkg>dbhydroR</pkg>
+<pkg>hydroscoper</pkg>
+<pkg>rwunderground</pkg>
+<pkg>sbtools</pkg>
+<pkg>washdata</pkg>
+
+<pkg>waterData</pkg>
+<pkg>hydrolinks</pkg>
+<pkg>countyweather</pkg>
+<pkg>dataRetrieval</pkg>
+<pkg>rnrfa</pkg>
+<pkg>rdwd</pkg>
+<pkg>bomrang</pkg>
+<pkg>weathercan</pkg>
+<pkg>tidyhydat</pkg>
+<pkg>getMet</pkg>
+<pkg>WaterML</pkg>
+<pkg>GSODR</pkg>
+<pkg>rnoaa</pkg>
+<pkg>worldmet</pkg>
+<pkg>RNCEP</pkg>
+</packagelist>
+
+<packagelist>
+<github>rywhale/kiwisR</github>
+</packagelist>
+<links>
+<a href="http://path/to/homepage/">The Title of a Relevant Homepage</a>
+<view>TimeSeries</view>
+</links>
+</CRANTaskView>
